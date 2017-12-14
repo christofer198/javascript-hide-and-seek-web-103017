@@ -3,5 +3,5 @@ function getFirstSelector(el){
 }
 
 function nestedTarget(target){
-  return document.querySelector(.target)
+  return document.querySelector(`.${target}`)
 }
